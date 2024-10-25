@@ -51,8 +51,9 @@ nav {
 }
 li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.15em;
+    font-size: large;
     padding-bottom: 0.75em;
+    color: #efefe7;
 }
 ul {
     list-style: none;
