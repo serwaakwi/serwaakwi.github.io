@@ -51,8 +51,8 @@ nav {
 }
 li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    padding-bottom: 0.75em;
+    font-size: x-large;
+    padding-bottom: 0.25em;
     color: #efefe7;
 }
 ul {
@@ -60,7 +60,7 @@ ul {
 }
 .ul-nest{
     list-style:disc;
-    padding-top: 0.75em;
+    padding-top: 0.5em;
 }
 ol {
     text-align: left;
