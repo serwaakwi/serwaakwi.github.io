@@ -1,0 +1,209 @@
+body{
+    background-color: #151414;
+}
+nav { 
+  background-color: grey; 
+  padding-top: 1em;
+  padding-bottom: 1em; 
+  padding-left: 2em;
+ } 
+ /* .navbutton {
+    background-color: #999b9d;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-right: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: groove;
+    border-color: #151414; */
+
+.navlink {
+    font-style: normal;
+    background-color: #413e3e;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-right: 4em;
+    font-family: serif;
+    border-style: groove;
+    border-color: #151414;
+}
+.navlink:hover {
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+/* .navlink:visited { */
+    /* color:cadetblue; */
+/* } */
+.container {
+    display: flex;
+}
+.row {
+    /* background-color: rgb(21, 20, 20); */
+    height: 33vw;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.big_text {
+    color: beige;
+    text-align: center;
+    font-size: 3em; /* 42px? */
+    font-family: serif;
+}
+.body_text {
+    font-size: 1.5em;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #efefe7;
+    padding-bottom: 0.25em;
+}
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.35em;
+    padding-bottom: 0.75em;
+    padding-top: 0.75em;
+}
+ul {
+    list-style: none;
+}
+ol {
+    text-align: left;
+    list-style: decimal;
+    color: #efefe7;
+}
+.directory-button {
+    color: #edecc9;
+    border: white;
+    border-style: double;
+    background-color: #151414;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.35em;
+    text-align: center;
+    width: 67vw;
+    margin-left: 5em;
+}
+.directory-button:visited {
+    color: #edecc9;
+}
+a:link {
+    color: #edecc9;
+}
+a:visited {
+    color:#edecc9;
+}
+.pagelink{
+    color: #edecc9;
+}
+#body_text {
+    font-size: 1.5em;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(239, 239, 231)
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: beige;
+}
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #efefe7
+}
+.new-container {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 4fr;
+}
+.column-left {
+    grid-column-start: 2;
+    grid-column-end:3;
+    height: fit-content;
+   /* border: solid;
+    border-color: white;*/
+}
+
+.column-right {
+    grid-column-start: 4;
+    grid-column-end:6;
+    /* border: solid;
+    border-color: white; */
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+.column-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    float: left;
+    /* border: solid;
+    border-color: white; */
+}
+.column-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    float: left;
+    /* border: solid;
+    border-color: white; */
+}
+.column-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    float: left;
+    /* border: solid;
+    border-color: white; */
+}
+.column-4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    float: left;
+    /* border: solid;
+    border-color: white; */
+}
+#main-portrait {
+    width: 33vw;
+    height: fit-content;
+}
+.caption-text {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #efefe7;
+    font-size: 1.1em;
+}
+.header-area {
+    height: 16vw;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.promo-pics {
+    width: 15vw;
+    height: fit-content;
+}
+.row1 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+table, th, td {
+    border: 1px solid;
+    border-color: #efefe7;
+    color: #edecc9;
+    padding: 1em;
+    grid-row-start: 1;
+  }
+
+th {
+    color: #edecc9;
+    font-style: oblique;
+    text-align: center;
+}
