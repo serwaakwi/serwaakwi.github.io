@@ -7,18 +7,6 @@ nav {
   padding-bottom: 1em; 
   padding-left: 2em;
  } 
- /* .navbutton {
-    background-color: #999b9d;
-    font-size: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin-right: 4em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-style: groove;
-    border-color: #151414; */
-
 .navlink {
     font-style: normal;
     background-color: #413e3e;
@@ -37,9 +25,6 @@ nav {
     cursor: pointer;
 }
 
-/* .navlink:visited { */
-    /* color:cadetblue; */
-/* } */
 .container {
     display: flex;
 }
@@ -66,12 +51,14 @@ nav {
 }
 li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.35em;
+    font-size: 1.15em;
     padding-bottom: 0.75em;
-    padding-top: 0.75em;
 }
 ul {
     list-style: none;
+}
+.ul-nest{
+    list-style:disc;
 }
 ol {
     text-align: left;
