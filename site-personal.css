@@ -59,6 +59,7 @@ ul {
 }
 .ul-nest{
     list-style:disc;
+    padding-top: 0.75em;
 }
 ol {
     text-align: left;
